@@ -15,9 +15,13 @@ Foi uma baita experiência, consegui absorver muito conhecimento e interagi com 
 	
     2-) Altere o programa para imprimir somente os números impares.
 
-	3-) Crie um programa que leia a média de dois valores inputados para calcular a sua média final. Em seguida exiba a média final e o resultado que pode ser aprovado, prova final ou reprovado. A média de aprovação é 7, menor que 3 para reprovação e as demais prova final.
+	3-) Crie um programa que leia a média de dois valores inputados para calcular a sua média final. 
+	Em seguida exiba a média final e o resultado que pode ser aprovado, prova final ou reprovado. 
+	A média de aprovação é 7, menor que 3 para reprovação e as demais prova final.
 	
-	4-) Crie um programa que leia uma senha fornecida pelo usuário composta por caracteres para informar se a senha é válida ou inválida. A senha do sistema corresponde a palavra “PORTUGOL”.Obs.: O programa não faz distinção de letras maiúsculas e minúsculas.
+	4-) Crie um programa que leia uma senha fornecida pelo usuário composta por caracteres para informar se a senha é válida ou inválida. 
+	A senha do sistema corresponde a palavra “PORTUGOL”.Obs.: 
+	O programa não faz distinção de letras maiúsculas e minúsculas.
 	
 	5-) Construa um programa que analise se uma string é um palíndromo, e imprima 
 	true ou false. Não sabe o que é palíndromo? Conhece o site Google? Procura lá pô...
