@@ -19,7 +19,8 @@ Foi uma baita experiência, consegui absorver muito conhecimento e interagi com 
 	Em seguida exiba a média final e o resultado que pode ser aprovado, prova final ou reprovado. 
 	A média de aprovação é 7, menor que 3 para reprovação e as demais prova final.
 	
-	4-) Crie um programa que leia uma senha fornecida pelo usuário composta por caracteres para informar se a senha é válida ou inválida. 
+	4-) Crie um programa que leia uma senha fornecida pelo usuário composta por 
+	caracteres para informar se a senha é válida ou inválida. 
 	A senha do sistema corresponde a palavra “PORTUGOL”.Obs.: 
 	O programa não faz distinção de letras maiúsculas e minúsculas.
 	
