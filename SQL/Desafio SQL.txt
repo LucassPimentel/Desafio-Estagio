@@ -1,0 +1,30 @@
+SELEC Nome from CLIENTE;
+
+SELECT  FROM FILME WHERE IdCategoria = 400;
+
+SELECT  FROM FILME WHERE ValorDiariaLocacao  4;
+
+SELECT NomeFilme, NomeCategoria from FILME as F INNER JOIN CATEGORIA as C ON F.IdCategoria=C.idCategoria;
+
+SELECT CLI.Nome, FIL.NomeFilme, CAT.NomeCategoria  FROM CLIENTE CLI 
+INNER JOIN LOCACAO AS LOC ON  CLI.cpf = LOC.cpfCliente
+INNER JOIN FILME AS FIL ON LOC.idFilme = FIL.idFilme
+INNER JOIN CATEGORIA AS CAT ON FIL.IdCategoria = CAT.idCategoria;
+
+INSERT INTO CATEGORIA(idCategoria, NomeCategoria) VALUES (500, 'TERROR');
+
+SELECT  FROM CATEGORIA;
+
+INSERT INTO FILME(idFilme, NomeFilme, IdCategoria) VALUES (53, 'IT - A COISA', 500);
+
+SELECT  FROM FILME;
+
+
+UPDATE FILME
+SET NomeFilme = 'MANDALORIAN'
+WHERE idFilme = 1;
+
+SELECT  FROM FILME;
+
+
+SELECT FIL.idFilme,FIL.NomeFilme, COUNT() contador FROM LOCACAO AS LOC INNER JOIN FILME AS FIL ON LOC.idFilme = FIL.idFilme GROUP BY LOC.idFilme;
